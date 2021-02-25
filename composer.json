@@ -1,0 +1,12 @@
+{
+    "name": "landingpage/greenery",
+    "description": "landing page project web system and dabase sytem.",
+    "type": "cms",
+    "license": "",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Greenery\\":"php/"
+    	}
+    }
+}

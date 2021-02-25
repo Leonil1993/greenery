@@ -1,0 +1,101 @@
+main .header-admin-login .full-width{
+	width: 100%;
+	height: 400px;
+    background: linear-gradient( to right, rgb(0 0 0 / 64%) 0px, rgb(17 17 17 / 12%) 0px, rgb(33 29 29 / 61%) 0px, rgb(41 62 80 / 82%) 0px, rgb(41 62 80 / 63%) 400px, rgb(41 62 80 / 0.35) 600px, rgb(41 62 80 / 20%) 100%), url(../images/bg6.png);
+	background-position: center;
+	background-size: cover;	
+	background-repeat: no-repeat;
+
+}
+main .header-admin-login .full-width .header-title{
+	padding-top: 200px;
+}
+main .header-admin-login .header-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 85px;
+    color: white;
+    padding: 0;
+    text-shadow: 0px 1px 50px black;
+    letter-spacing: 6px;
+}
+
+main .header-admin-login .main-container .div-content{
+	display: inline-flex;
+	width: 100%;
+	margin-bottom: 155px;
+	color: #ffffff;
+}
+main .header-admin-login .main-container .div-content .content{
+	display: inline-block;
+	width: 100%;
+	font-family: system-ui;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+main .header-admin-login .main-container .div-content .content .form-title{
+	text-align: center;
+	font-size: 30px;
+}
+
+main .header-admin-login .main-container .div-content .form{
+	box-shadow: 0 0 10px black;
+	width: 50%;
+	margin: 0 auto;
+}
+main .header-admin-login .main-container .div-content .form .form-item{
+	margin-bottom: 10px;
+	width: 100%;
+}
+main .header-admin-login .main-container .div-content .form .form-item .l-i{
+	background-color: transparent;
+	display: inline-flex;
+	width: 100%;
+	padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px 1px black;
+}
+main .header-admin-login .main-container .div-content .form .div-message{
+	text-align: center;
+    height: 18px;
+    font-family: monospace;
+    color: red;
+    font-size: 11px;
+    margin-top: 5px; 
+}
+main .header-admin-login .main-container .div-content .form .form-item label,
+main .header-admin-login .main-container .div-content .form .form-item input{
+	display: inline-block;
+}
+main .header-admin-login .main-container .div-content .form .form-item input{
+	background-color: transparent;
+	width: 100%;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	color: #ffffff;
+	cursor: text;
+	text-shadow: 0 0 3px black;
+}
+main .header-admin-login .main-container .div-content .form .get-started{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+main .header-admin-login .main-container .div-content .form .get-started button{
+	padding: 20px 0;
+    background-color: #fff0;
+    outline: none;
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    width: 50%;
+    cursor: pointer;
+}
+main ..header-admin-login .main-container .div-content .form button:hover{
+	background-color: #ffffff1a;
+}
+main .header-admin-login .main-container .div-content .form button:active{
+	background-color: #ffffff5e;
+	box-shadow: 0 0 5px 1px black;
+}

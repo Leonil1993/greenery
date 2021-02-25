@@ -1,0 +1,227 @@
+main .header-admin-page .full-width{
+	width: 100%;
+	height: 400px;
+    background: linear-gradient( to right, rgb(0 0 0 / 64%) 0px, rgb(17 17 17 / 12%) 0px, rgb(33 29 29 / 61%) 0px, rgb(41 62 80 / 82%) 0px, rgb(41 62 80 / 63%) 400px, rgb(41 62 80 / 0.35) 600px, rgb(41 62 80 / 20%) 100%), url(../images/bg7.png);
+	background-position: center;
+	background-size: cover;	
+	background-repeat: no-repeat;
+
+}
+main .header-admin-page .full-width .header-title{
+	padding-top: 200px;
+}
+main .header-admin-page .header-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 85px;
+    color: white;
+    padding: 0;
+    text-shadow: 0px 1px 50px black;
+    letter-spacing: 6px;
+}
+
+main .header-admin-page .main-container .div-content{
+	display: inline-flex;
+	width: 100%;
+	margin-bottom: 155px;
+	color: #ffffff;
+}
+main .header-admin-page .main-container .div-content .content{
+	display: inline-block;
+	width: 70%;
+	font-family: system-ui;
+	padding: 20px;
+}
+main .header-admin-page .main-container .div-content .content h3{
+	text-align: center;
+	font-size: 30px;
+}
+main .header-admin-page .main-container .div-content .dashboard{
+	width: 50%;
+	margin: 0 auto;
+}
+main .header-admin-page .main-container .div-content .dashboard .dashboard-cover{
+	box-shadow: 0 0 10px black;
+	padding: 10px;
+}
+main .header-admin-page .main-container .div-content .dashboard .dashboard-item{
+	margin-bottom: 10px;
+	width: 100%;
+}
+main .header-admin-page .main-container .div-content .dashboard .dashboard-item .l-i{
+	background-color: transparent;
+	display: inline-flex;
+	width: 100%;
+	padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px 1px black;
+}
+main .header-admin-page .main-container .div-content .dashboard .div-message{
+    height: 18px;
+    font-family: monospace;
+    color: red;
+    font-size: 11px;
+    margin-top: 5px; 
+}
+main .header-admin-page .main-container .div-content .dashboard .dashboard-item ul{
+	padding: 0;
+}
+main .header-admin-page .main-container .div-content .dashboard .dashboard-item ul li{
+	width: 100%;
+	font-size: 20px;
+	color: #ffffff;
+	cursor: pointer;
+	text-shadow: 0 0 3px black;
+	margin-bottom: 5px;
+	padding: 15px;
+}
+main .header-admin-page .main-container .div-content .dashboard .dashboard-item ul li:hover{
+	background-color: #2e865b78;
+}
+main .header-admin-page .main-container .div-content .dashboard .dashboard-item ul li:active{
+	background-color: #2e865b8a;
+    box-shadow: 0 0 6px 2px black;
+}
+
+/*dashboard details*/
+main .header-admin-page .main-container .div-content .dashboard-details .item{
+	padding: 0;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item{
+	max-width: 100%;
+	overflow-x: auto;
+	padding: 0 10px;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .l-i{
+	background-color: transparent;
+	display: inline-flex;
+	width: 100%;
+	padding: 10px;
+	border-bottom: #ffffff solid 1px;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .update .l-i{
+	box-shadow: 0 1px 4px 1px black;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item h4{
+	text-align: left;
+	font-size: 25px;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .update-button{
+	margin-bottom: 50px;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .delete-button{
+	text-align: center;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .update-button button,
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .delete-button button{
+	margin-bottom: 50px;
+	padding: 20px 0;
+    background-color: #fff0;
+    outline: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    width: 50%;
+    cursor: pointer;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .update-button button:hover,
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .delete-button button:hover{
+	background-color: #ffffff1a;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .update-button button:active,
+main .header-admin-page .main-container .div-content .dashboard-details .form-item .delete-button button:active{
+	background-color: #ffffff5e;
+	box-shadow: 0 0 5px 1px black;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .div-message{
+	text-align: center;
+    height: 18px;
+    font-family: monospace;
+    color: red;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item label,
+main .header-admin-page .main-container .div-content .dashboard-details .form-item input{
+	display: inline-block;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item [name="old-password"],
+main .header-admin-page .main-container .div-content .dashboard-details .form-item [name="password"],
+main .header-admin-page .main-container .div-content .dashboard-details .form-item [name="confirm-password"]{
+	width: 61%;
+}
+main .header-admin-page .main-container .div-content .dashboard-details .form-item input{
+	background-color: transparent;
+	width: 100%;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	color: #ffffff;
+	cursor: text;
+	text-shadow: 0 0 3px black;
+}
+main .header-admin-page .main-container .div-content .dashboard-details{
+	border: rgb(255 255 255) solid 1px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;.
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){
+	background-color: #060c1845;
+}
+
+table tr:hover {
+	background-color: #ffffff26;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf5075;
+  color: white;
+}
+
+table tr td button{
+	width: 100%;
+	padding: 5px;
+	cursor: pointer;
+	font-family: system-ui;
+	background-color: transparent;
+	border: #ffffff solid 1px;
+	outline: none;
+	color: #ffffff;
+}
+
+table tr td button:hover,
+table tr td button:active{
+	background-color: #393b3ecf;
+}
+
+
+
+table tr td button[name="edit"]{
+	margin-bottom: 5px;
+}
+
+table tr td button[name="edit"]:hover{
+	color: #66f766;
+}
+table tr td button[name="edit"]:focus{
+	box-shadow: 0 0 2px 2px #00ff00;
+}
+
+table tr td button[name="delete"]:hover{
+	color: #ff3f20;
+}
+table tr td button[name="delete"]:focus{
+	box-shadow: 0 0 2px 2px #ff0000eb;
+}

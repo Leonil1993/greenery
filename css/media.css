@@ -1,0 +1,199 @@
+/*max width*/
+@media (max-width: 1024px){
+	header nav,
+	main .main-container,
+	footer .div-footer{
+		max-width: 925px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px){
+	/*pag ma click ang menu button*/
+	header .nav{
+		height: 400px;
+	}
+	header nav .hide-logo{
+		display: none;
+	}
+	header nav .div-nav .hide-menu{
+		display: none
+	}
+	header nav .div-nav .menu ul{
+		display: block;
+		text-align: center;
+		padding-left: 0;
+	}
+	header nav .div-nav .menu ul li{
+		margin-left: 0;
+		margin-bottom: 20px;
+	    font-size: 30px;
+	    padding: 5px;
+	}
+	/**/
+	header nav .div-nav .logo{
+		width: 89%;
+		height: 100%;
+	}
+	header nav .menu-icon{
+		display: block;
+		position: absolute;
+		right: 0;
+		padding: 20px;
+    	cursor: pointer;
+	}
+	header nav .menu-icon .bars,
+	header nav .menu-icon .times{
+		border: transparent solid 1px;
+		padding: 10px 15px 10px 15px;
+	}
+	header nav .menu-icon .bars:hover,
+	header nav .menu-icon .times:hover{
+		border: white solid 1px;
+	}
+	header nav .menu-icon .bars:active,
+	header nav .menu-icon .times:active{
+		background-color: #352f2f52;
+	}
+	header nav .menu-icon .times{
+		position: relative;
+    	top: -15px;
+	}
+	header nav .div-nav .menu{
+		width: 100%;
+	}
+	main .main-container .div-content{
+		display: inline-block;
+	}
+	main .main-container .div-content .article-a{
+		width: 100%;
+	}
+	main .main-container .div-content .article-b{
+		width: 100%;
+	}
+	/*aboutus*/
+	main .header-aboutus .header-title h1{
+	    font-size: 75px;
+	}
+	main .header-aboutus .main-container .div-content .item{
+		display: inline-block;
+		height: auto;
+	}
+	main .header-aboutus .main-container .div-content .item .img{
+		display: none;
+	}
+	
+	main .header-aboutus .main-container .div-content .item .parag{
+		width: 100%;
+		padding: 40px 20px;
+	}
+	/*contact us*/
+	main .header-contactus .header-title h1{
+	    font-size: 75px;
+	}
+	main .header-contactus .main-container .div-content{
+		display: inline-block;
+		height: auto;
+	}
+	main .header-contactus .main-container .div-content .form,
+	main .header-contactus .main-container .div-content .address{
+		width: 100%;
+	}
+	/*admin-login*/
+	main .header-admin-login .header-title h1{
+	    font-size: 75px;
+	}
+	main .header-admin-login .main-container .div-content{
+		display: inline-block;
+		height: auto;
+	}
+	main .header-admin-login .main-container .div-content .form,
+	main .header-admin-login .main-container .div-content .address{
+		width: 100%;
+	}
+	/*admin-page*/
+	main .header-admin-page .header-title h1{
+	    font-size: 75px;
+	}
+	main .header-admin-page .main-container .div-content{
+		display: inline-block;
+		height: auto;
+	}
+	main .header-admin-page .main-container .div-content .dashboard,
+	main .header-admin-page .main-container .div-content .dashboard-details{
+		width: 100%;
+	}
+}
+
+@media (max-width: 475px){
+	/*contact us*/
+	main .header-contactus .main-container .div-content .form .form-item [name="confirm-password"] {
+		width: 35%;
+	}
+	/*admin-page*/
+	main .header-admin-page .main-container .div-content .dashboard-details .form-item [name="old-password"],
+	main .header-admin-page .main-container .div-content .dashboard-details .form-item [name="new-password"],
+	main .header-admin-page .main-container .div-content .dashboard-details .form-item [name="confirm-password"]{
+		width: 29%;
+	}
+}
+
+@media (max-width: 425px){
+	main .main-container .div-content .article-b img{
+		height: 450px;
+	}
+	main .main-container .div-content{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	/*about us*/
+	main .header-aboutus .header-title h1{
+	    font-size: 65px;
+	}
+	/*contact us*/
+	main .header-contactus .header-title h1{
+	    font-size: 55px;
+	}
+	/*admin-login*/
+	main .header-admin-login .header-title h1{
+	    font-size: 55px;
+	}
+	/*admin-page*/
+	main .header-admin-page .header-title h1{
+	    font-size: 55px;
+	}
+}
+
+@media (max-width: 320px){
+	header nav .div-nav .logo img {
+		height: 80%;
+	}
+	main .main-container .div-content .article-a h1{
+		font-size: 60px;
+	}
+	main .main-container .div-content .article-a h2{
+		font-size: 22px;
+	}
+	main .main-container .div-content .article-a p{
+		font-size: 11px;
+	}
+	/*about us*/
+	main .header-aboutus .header-title h1{
+	    font-size: 65px;
+	}
+	/*contact us*/
+	main .header-contactus .header-title h1{
+	    font-size: 45px;
+	}
+	main .header-contactus .main-container .div-content .form .form-item {
+		width: 100%;
+	}
+	/*admin-login*/
+	main .header-admin-login .header-title h1{
+	    font-size: 45px;
+	}
+	/*admin page*/
+	main .header-admin-page .header-title h1{
+	    font-size: 45px;
+	}
+}

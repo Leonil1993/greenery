@@ -1,0 +1,61 @@
+main .header-aboutus .full-width{
+	width: 100%;
+	height: 400px;
+    background: linear-gradient( to right, rgb(0 0 0 / 64%) 0px, rgb(17 17 17 / 12%) 0px, rgb(33 29 29 / 61%) 0px, rgb(41 62 80 / 82%) 0px, rgb(41 62 80 / 63%) 400px, rgb(41 62 80 / 0.35) 600px, rgb(41 62 80 / 20%) 100%), url(../images/bg5.jpg);
+	background-position: center;
+	background-size: cover;	
+	background-repeat: no-repeat;
+
+}
+main .header-aboutus .full-width .header-title{
+	text-align: left;
+	padding-top: 200px;
+}
+main .header-aboutus .header-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 85px;
+    color: white;
+    padding: 0;
+    text-shadow: 0px 1px 50px black;
+    letter-spacing: 6px;
+}
+
+main .header-aboutus .main-container{}
+main .header-aboutus .main-container .div-content{
+	display: inline-block;
+	width: 100%;
+	/*margin-top: 155px;*/
+	margin-bottom: 155px;
+}
+main .header-aboutus .main-container .div-content .item{
+	display: inline-flex;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 80px;
+}
+main .header-aboutus .main-container .div-content .item .img,
+main .header-aboutus .main-container .div-content .item .parag{
+	display: inline-block;
+	padding: 20px;
+}
+
+main .header-aboutus .main-container .div-content .item .img{
+	box-shadow: 0 0 10px black;
+	width: 40%;
+}
+main .header-aboutus .main-container .div-content .item .img img{
+	width: 100%;
+	height: 100%;
+}
+main .header-aboutus .main-container .div-content .item .parag{
+	width: 60%;
+	box-shadow: inset 0 0 20px black;
+}
+main .header-aboutus .main-container .div-content .item .parag p{
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 0 0 3px black;
+	font-family: system-ui;
+}

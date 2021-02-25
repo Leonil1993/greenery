@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Font Awesome 5 Solid';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../icon/fontawesome/fa-solid-900.eot");
+  src: url("../icon/fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../icon/fontawesome/fa-solid-900.woff2") format("woff2"), url("../icon/fontawesome/fa-solid-900.woff") format("woff"), url("../icon/fontawesome/fa-solid-900.ttf") format("truetype"), url("../icon/fontawesome/fa-solid-900.svg#icon/fontawesome") format("svg"); 
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../icon/fontawesome/fa-brands-400.eot");
+  src: url("../icon/fontawesome/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../icon/fontawesome/fa-brands-400.woff2") format("woff2"), url("../icon/fontawesome/fa-brands-400.woff") format("woff"), url("../icon/fontawesome/fa-brands-400.ttf") format("truetype"), url("../icon/fontawesome/fa-brands-400.svg#icon/fontawesome") format("svg"); 
+}
+
+.i{
+  font-style: normal;
+}
+
+.fa-bars:before {
+  font-family: 'Font Awesome 5 Solid';
+  font-weight: 900;
+  content: "\f0c9";
+  font-size: 30px;
+  color: #d6d6d6;
+  line-height: 39px;
+}
+
+.fa-times:before {
+  font-family: 'Font Awesome 5 Solid';
+  font-weight: 900;
+  content: "\f00d";
+  font-size: 38px;
+  color: #ff0000eb;
+}
+
+.facebook:before {
+  font-family: 'Font Awesome 5 Brands';
+  content: "\f39e";
+  color: #fff;
+}
+
+.twitter:before {
+  font-family: 'Font Awesome 5 Brands';
+  content: "\f099";
+  color: #fff;
+}
+
+.instagram:before {
+  font-family: 'Font Awesome 5 Brands'; 
+  content: "\f16d"; 
+  color: #fff;
+}
